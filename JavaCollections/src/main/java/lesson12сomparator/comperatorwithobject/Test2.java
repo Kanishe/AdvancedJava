@@ -8,7 +8,7 @@ public class Test2 {
         persons.add(new Persons(17,"Bax"));
         persons.add(new Persons(23,"Ax"));
         persons.add(new Persons(34,"Xax"));
-
+//compare for object
         Collections.sort(persons, new Comparator<Persons>() {
             @Override
             public int compare(Persons o1, Persons o2) {
