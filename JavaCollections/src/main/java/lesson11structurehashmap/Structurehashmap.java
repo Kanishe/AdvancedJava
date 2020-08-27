@@ -9,5 +9,12 @@ public class Structurehashmap {
 
 
         hasmap.put(1,"Tomy");
+        hasmap.put(3243,"Tomy");
+        hasmap.put(124214213,"Tomy");
+        hasmap.put(11241,"Tomy");
+        hasmap.put(11245,"Tomy");
+        hasmap.put(55231,"Tomy");
+
+        System.out.println(hasmap);
     }
 }
