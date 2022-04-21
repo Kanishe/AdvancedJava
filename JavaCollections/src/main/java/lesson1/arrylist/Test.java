@@ -14,9 +14,10 @@ public class Test {
         //List<Integer> arrayList = new ArrayList(); - correct (now we can use methods all interface List)
         logger.warn("//Example 0");
         List<Integer> arrayList = new ArrayList();
-        for (int i = 0; i <10;i++){
+        for (int i = 0; i <16;i++){
             arrayList.add(i);
         }
+        arrayList.add(3);
         logger.info("Log4j2ExampleApp started.");
         logger.warn("Something to warn");
         logger.error("Something failed.");

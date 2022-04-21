@@ -24,7 +24,7 @@ public class Test {
         map.put(54,"2Pac");
 
         for(Map.Entry<Integer,String> entry : map.entrySet()){
-            System.out.println(entry.getKey()+ ": " + entry.getValue());
+            System.out.println(entry.getKey()+ " : " + entry.getValue());
         }
     }
 }

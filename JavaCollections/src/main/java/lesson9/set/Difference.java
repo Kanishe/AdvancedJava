@@ -19,7 +19,7 @@ public class Difference {
         differ2.add(4);
 
 
-        differ.removeAll(differ2);
+       // differ.removeAll(differ2);
 
 
         System.out.println(differ);
