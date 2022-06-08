@@ -1,7 +1,8 @@
 package L2Volatile;
 
 public class l2Volotile extends Thread  {
-    public volatile boolean running = true;
+    public volatile boolean running = true;// volatile - не кешируется для каждого потока а берется тз
+    //общей памяти
     
     @Override
     public void run() {
